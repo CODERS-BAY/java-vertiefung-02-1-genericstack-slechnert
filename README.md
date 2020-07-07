@@ -11,7 +11,3 @@ Der Stack sollte folgende Methoden besitzen:
     * wirft eine StackEmptyException falls der Stack leer ist
 * public T push() 
     * fügt dem Stack ein Element hinzu
-
-Teste deine Implementierung *ausführlich* mit Unit Tests. Verwende mindestens einen MyStack<Integer>, MyStack<String> und MyStack<Bill>.
-Bill darf dabei eine ganz simple Klasse zur Repräsentation einer Rechnung sein. 
-
