@@ -11,3 +11,5 @@ Der Stack sollte folgende Methoden besitzen:
     * wirft eine StackEmptyException falls der Stack leer ist
 * public T push() 
     * fügt dem Stack ein Element hinzu
+
+Teste und nutze MyStack<Integer>, Mystack<Boolean> und Mystack<String>.
