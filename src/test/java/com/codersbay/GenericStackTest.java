@@ -72,11 +72,12 @@ public class GenericStackTest {
         assertEquals("BOOO TWOOO", testStack.pop());
         assertEquals(1, testStack.length());
         assertEquals("BOOO", testStack.peek());
+        assertEquals(1, testStack.length());
     }
 
     @Test
     @DisplayName("The peek() method used from an Integer Stack returns the element added last")
-    public void testIntegerPop(){
+    public void testIntegerPop() {
         GenericStack<Integer> testStack = new GenericStack<>();
         testStack.push(1);
         testStack.push(2);
@@ -85,5 +86,8 @@ public class GenericStackTest {
         assertEquals(2, testStack.pop());
         assertEquals(1, testStack.length());
         assertEquals(1, testStack.peek());
+        assertEquals(1, testStack.length());
+        assertEquals(1, testStack.pop());
+        assertEquals(0, testStack.length());
     }
 }
